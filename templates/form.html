@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso</title>
+</head>
+<body>
+    <h1>Formulario de Ingreso</h1>
+    <form action="/procesar_formulario" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label for="foto">Foto de Perfil:</label>
+        <input type="file" name="foto" accept="image/*" required><br>
+
+        <input type="submit" value="Ingresar">
+        
+    </form>
+    
+</body>
+</html>
